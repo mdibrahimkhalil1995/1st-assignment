@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* ==================================================== */
+
+/* start top banner css */
+.banner-img{
+    background-image: url(images/banner/banner3.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-wrap{
+    width: 960px;
+    margin: auto;
+
+}
+.banner-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+.banner-content{
+    text-align: right;
+    width: 300px;
+    margin-top: 250px;
+
+}
+.banner-content h1{
+    color: aliceblue;
+}
+.banner-content p{
+    color: rgb(189, 204, 218);
+    margin-top: 10px;
+}
+.banner-content a{
+    display: inline-block;
+    width: 120px;
+    margin-top: 25px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: rgb(4, 3, 37) ;
+    text-align: center;
+    font-weight: 700;
+}
+/* end top banner css */
+
+
+/* start section-1 */
+.section-1-bg{
+    background-color: #d1e9fa;
+}
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+.section-1-img{
+    width: 45%;
+}
+.section-1-img img{
+    width: 100%;
+}
+.section-1-content{
+    width: 45%;
+}
+.section-1-content p{
+    margin-top: 15px;
+}
+.section-1-content .fa-solid{
+    margin: 0px 10px;
+    color: green;
+}
+/* End .section-1 css */
+
+/* start my plan css */
+.plan-head{
+    padding: 25px 0;
+    text-align: center;
+}
+.plans-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.plans-items h3{
+    color: #151414;
+    margin-top: 10px;
+}
+.plans-items p{
+    color: #737272;
+    margin-top: 10px;
+}
+/* End my plan css */
+
+/* start inner banner */
+.inner-bg{
+    background-image: url(images/watch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.inner-banner{
+    background: linear-gradient(to right, #005FAC, #ffffff28);
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+.inner-banner h1{
+    color: #fff;
+}
+.inner-banner a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #d1e9fa;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #151414;
+}
+/* End inner banner css */
+
+/* start footer section */
+.footer-bg{
+    background-color: #151414;
+
+}
+.footer-content{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    background-color: #151414;
+    padding: 100px 0px;
+}
+.contact-info{
+    width: 400px;
+}
+.contact-info h1{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.contact-info h1{
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.contact-info p, span{
+    color: #F8F8F8;
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+}
+.social-icon img{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.contact-info span{
+    color: #F8F8F8;
+    line-height: 40px;
+}
+
+.subscribe-section h3{
+    color: #F8F8F8;
+    margin-bottom: 25px;
+}
+.email input{
+    width: 300px;
+    padding: 15px;
+    background: none;
+    border: none;
+    border: 1px solid #F8F8F8;
+    border-radius: 5px;
+    color: #F8F8F8;
+}
+::placeholder{
+    color: #d1e9fa;
+}
+.subs-btn input{
+    margin-top: 15px;
+    width: 120px;
+    padding: 15px;
+    font-weight: 700;
+    background: #005FAC;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+/* End footer Section */
